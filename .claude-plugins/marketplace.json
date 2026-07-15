@@ -4,7 +4,7 @@
     "plugins": [
         {
             "name": "training-factory",
-            "source": ".",
+            "source": "./training_factory",
             "description": "Tool + skill for building Claude Certified Architect exam trainings."
         }
     ]
