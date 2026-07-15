@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "training-factory": {
+            "command": "python",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/server/training_server.py"]
+        }
+    }
+}

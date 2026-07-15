@@ -1,0 +1,11 @@
+{
+    "name": "training-factory-market",
+    "owner": { "name": "Ben Moody" },
+    "plugins": [
+        {
+            "name": "training-factory",
+            "source": ".",
+            "description": "Tool + skill for building Claude Certified Architect exam trainings."
+        }
+    ]
+}
