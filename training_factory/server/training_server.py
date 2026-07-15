@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "mcp[cli]>=1.0",
+#     "pypdf>=4.0",
+# ]
+# ///
 from pathlib import Path
 import html
 from mcp.server.fastmcp import FastMCP
