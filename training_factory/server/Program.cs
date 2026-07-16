@@ -3,6 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ModelContextProtocol.Server;
 using System.ComponentModel;
+using System.Net;        // WebUtility.HtmlEncode
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services
     .WithToolsFromAssembly(); // finds classes with the McpServerToolType attribute.
 
 await builder.Build().RunAsync();
+
+// One section of a training: a heading plus trusted HTML the caller supplies.
+public record TrainingSection(string Title, string Body);
 
 [McpServerToolType]
 public static class TrainingTools
