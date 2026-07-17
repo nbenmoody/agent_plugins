@@ -1,6 +1,6 @@
 {
     "name": "training-factory",
     "description": "Tool + skill for building Claude Certified Architect exam trainings.",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": { "name": "Ben Moody" }
 }
